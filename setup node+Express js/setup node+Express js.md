@@ -95,3 +95,60 @@ app.get("/", function (request, response) {
 app.listen(PORT, () => console.log(`The server started in: ${PORT} ✨✨`));
 
 ```
+
+### Added the mongo db with Express js
+
+1. install the package - `npm i mongodb`
+2.  Pasted the below sample code in `index.js`
+
+```
+
+// const express = require("express"); // "type": "commonjs"
+import express from "express";
+import { MongoClient } from "mongodb"; // "type": "module"
+
+const app = express();
+const PORT = 4000;
+
+const MONGO_URL = "mongodb://127.0.0.1";
+const client = new MongoClient(MONGO_URL); // dial
+// Top level await
+await client.connect(); // call
+console.log("Mongo is connected !!!  ");
+
+app.use(express.json());
+
+app.get("/", function (request, response) {
+  response.send("Express server has successfully working✨✔");
+});
+
+app.listen(PORT, () => console.log(`The server started in: ${PORT} ✨✨`));
+
+```
+
+### add cors
+
+1. install the package - `npm i cors`
+2. It's used to help share the data's 
+3. Pasted the below one code in `index.js`
+```
+app.use(cors());
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h3{
+        font-family:cursive;
+        text-align: center;
+    }
+</style>
+<body>
+    <h3>Thank you..🙏🙏</h3>
+</body>
+</html>
