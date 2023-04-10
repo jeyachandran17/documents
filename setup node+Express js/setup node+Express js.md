@@ -2,9 +2,9 @@
 ### Setup Express js
 
 1. Go to empty folder or create empty folder
-2. create a file named ``` index.js ```
-3. ``` npm init -y ``` this commend will create package.json
-4. ``` npm i express ```  this commend will installs express
+2. create a file named `index.js`
+3. `npm init -y` this commend will create package.json
+4. `npm i express`  this commend will installs express
 5. Pasted the below sample code in `index.js`
 ```
 const express = require("express");
@@ -20,14 +20,14 @@ app.listen(PORT, () => console.log(`The server started in: ${PORT} ✨✨`));
 
 
 ```
-- Goto to ``` http://localhost:4000 ``` to see the `Express server has successfully working✨✔` message.
+6. Goto to `http://localhost:4000` to see the `Express server has successfully working✨✔` message.
 
-- `Congratulations. finally you are created a server 🎉🎉`
+7. `Congratulations. finally you are created a server 🎉🎉`
 
 ### Manually restart the server
 
-1. ``` node index.js ``` - Start server
-2. Press keys to ``` ctrl + c ``` - Stop server
+1. `node index.js` - Start server
+2. Press keys to `ctrl + c` - Stop server
 
 ### Automatic restart of server
 
@@ -36,7 +36,6 @@ app.listen(PORT, () => console.log(`The server started in: ${PORT} ✨✨`));
 3. `--save-dev` flag is mentioned since `nodemon` is only be needed for development
 
 
-scripts
 ### Its like shortcut to run commands
 
 1. add the two line on `scripts` "start" & "dev" in `package.json` 
@@ -53,12 +52,12 @@ scripts
 ```
 ### Start the Terminal commands
 1. npm run start or npm start (shortcut) -> to run/start the app
-  - `npm run dev` -> to dev mode
+    - `npm run dev` -> to dev mode
 
 2. Dev mode automatically listens to changes you make and restarts the server
 
 3. Latest Import & Exports
-  - just added one line "type" in `package.json`
+    - just added one line "type" in `package.json`
 ```
 
 {
