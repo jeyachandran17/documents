@@ -141,13 +141,7 @@ app.use(cors());
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<style>
-    h3{
-        font-family:cursive;
-        text-align: center;
-    }
-</style>
 <body>
-    <h3>Thank you..🙏🙏</h3>
+    <h3 style="text-align: center; font-family: cursive;">Thank you..🙏🙏</h3>
 </body>
 </html>
