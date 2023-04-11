@@ -36,9 +36,13 @@ Example :
 
     <p style="color:red;"> welcome to html learning </p>
 ```
-- output : <p style="color:red;">welcome to html learning</p>
-- The `style` attribute is used to add the styles to an element, 
-- such as `color, font, size, and more...`.
+
+- output : 
+    
+    ![welcome to html](./pictures/welcome-to-html.png)
+
+    - The `style` attribute is used to add the styles to an element, 
+    - such as `color, font, size, and more...`.
 
 ### HTML using CSS : 
 
@@ -76,25 +80,4 @@ Example :
 
 - Output : 
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial- scale=1.0">
-        <title>HTML & CSS</title>
-        <link rel="stylesheet" href="./style.css">  <!-- this element is "External CSS" with linked to html file  -->
-    </head>
-    <!-- this element is "internal CSS" -->
-    <style>
-        h3{
-            font-family:cursive;
-            color: dodgerblue;
-        }
-    </style>
-    <body>
-        <h3>welcome to html & css learning</h3>
-        <p style="color:red">everyone has do be creating the web pages  is using HRML</p>    <!-- this element is "inline CSS" -->
-        <p>happy coding...</p>
-    </body>
-    </html>
+    ![welcome to html & css](./pictures/welcome-to-html-css.png)
