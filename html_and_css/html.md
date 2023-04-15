@@ -44,6 +44,13 @@ Example :
     - The `style` attribute is used to add the styles to an element, 
     - such as `color, font, size, and more...`.
 
+### HTML commant tag
+
+- you can add your commants in HTML file
+```
+<!-- Write your comments here -->
+``` 
+
 ### HTML using CSS : 
 
 1. CSS can be added to HTML documents in 3 ways:
@@ -81,3 +88,24 @@ Example :
 - Output : 
 
     ![welcome to html & css](./pictures/welcome-to-html-css.png)
+
+### HTML Formatting Elements
+Formatting elements were designed to display special types of text:
+```
+        <b> Bold text </b>   
+        <strong> Important text </strong>   
+        <i> italic text </i>
+        <em> Emphasized text </em>
+        <mark> Marked text </mark> 
+        <small> smaller text </small> 
+        <del> Deleted text </del> 
+        <ins> Inserted text </ins> 
+        <sub> Subscript text </sub>
+        <sup> Superscript text </sup>
+
+```
+- Sample :
+
+    ![html formatting](./pictures/html-formtting.png)
+
+

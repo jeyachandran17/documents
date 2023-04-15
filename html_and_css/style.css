@@ -1,3 +1,8 @@
 p{
     color: blueviolet;
 }
+
+.formatting{
+    display: inline-flex;
+    flex-direction:column ;
+}
