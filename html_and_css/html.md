@@ -8,6 +8,8 @@
 4. HTML elements tell the browser how to display the content
 5. HTML elements label pieces of content such as `"this is heading", "this is paragraph" and "this is link", etc,..`
 
+<hr>
+
 ### HTML Elements
 
 1. The HTML elements is everything from the start tag to end tag
@@ -23,6 +25,8 @@ Example:
 
 2. some tags are single tags
     - like : `<br>` `<hr>` 
+
+<hr>
 
 ### HTML Attribute
 
@@ -44,12 +48,15 @@ Example :
     - The `style` attribute is used to add the styles to an element, 
     - such as `color, font, size, and more...`.
 
+<hr>
+
 ### HTML commant tag
 
 - you can add your commants in HTML file
 ```
 <!-- Write your comments here -->
 ``` 
+<hr>
 
 ### HTML using CSS : 
 
@@ -89,6 +96,8 @@ Example :
 
     ![welcome to html & css](./pictures/welcome-to-html-css.png)
 
+<hr>
+
 ### HTML Formatting Elements
 Formatting elements were designed to display special types of text:
 ```
@@ -109,6 +118,8 @@ Formatting elements were designed to display special types of text:
     ![html formatting](./pictures/html-formtting.png)
 
 
+<hr>
+
 ### HTML Block and Inline Elements
 
 1. Block elements
@@ -125,3 +136,5 @@ Formatting elements were designed to display special types of text:
     - An inline element only takes up as much width as necessary.
 
     - Example : `<span> and <b>,.etc`
+
+<hr>
