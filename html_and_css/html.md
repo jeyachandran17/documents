@@ -109,3 +109,19 @@ Formatting elements were designed to display special types of text:
     ![html formatting](./pictures/html-formtting.png)
 
 
+### HTML Block and Inline Elements
+
+1. Block elements
+    - A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+
+    - A block-level element always takes up the full width available
+
+    - Example : `<p> and <div>,.etc`
+
+2. Inline elements
+
+    - An inline element does not start on a new line.
+
+    - An inline element only takes up as much width as necessary.
+
+    - Example : `<span> and <b>,.etc`
