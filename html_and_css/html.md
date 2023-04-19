@@ -138,3 +138,10 @@ Formatting elements were designed to display special types of text:
     - Example : `<span> and <b>,.etc`
 
 <hr>
+
+### HTML class Attribute
+1. The HTML class attribute is used to specify a class for an HTML element.
+
+2. Multiple HTML elements can share the same class.
+
+    - Example : `<p class="first_paragraph">`
