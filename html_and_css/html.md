@@ -145,3 +145,16 @@ Formatting elements were designed to display special types of text:
 2. Multiple HTML elements can share the same class.
 
     - Example : `<p class="first_paragraph">`
+
+
+### HTML Forms
+
+1. An HTML form is used to collect user input. 
+2. The user input is most often sent to a server for processing.
+3. it's use the element is `<form></form>`
+
+### <form> elements
+
+1. he HTML `<form>` element is used to create an HTML form for user input
+2. The `<form>` element is a container for different types of input elements 
+3. such as: `text fields, checkboxes, radio buttons, submit buttons, etc`
