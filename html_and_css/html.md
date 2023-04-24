@@ -98,6 +98,13 @@ Example :
 
 <hr>
 
+### HTML using javascript
+
+1. JavaScript makes HTML pages more dynamic and interactive.
+
+2. `Internal` - by using a `<script>` element in the <head> section
+<hr>
+
 ### HTML Formatting Elements
 Formatting elements were designed to display special types of text:
 ```
