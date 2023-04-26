@@ -6,3 +6,7 @@ p{
     display: inline-flex;
     flex-direction:column ;
 }
+
+.type-of-inputs{
+    gap: 20px;
+}
