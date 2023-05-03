@@ -163,10 +163,18 @@ Formatting elements were designed to display special types of text:
 
 <hr>
 
-### <form> elements
+### `<form>` elements
 
 1. he HTML `<form>` element is used to create an HTML form for user input
 2. The `<form>` element is a container for different types of input elements 
 3. such as: `text fields, checkboxes, radio buttons, submit buttons, etc`
 
 <hr>
+
+### HTML Canvas Graphics
+
+1. The HTML `<canvas>` element is used to draw graphics, on the fly, via JavaScript.
+
+2. The `<canvas>` element is only a container for graphics. You must use JavaScript to actually draw the graphics.
+
+3. Canvas has several methods for `drawing paths, boxes, circles, text, and adding images`.
