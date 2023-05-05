@@ -50,6 +50,14 @@ Example :
 
 <hr>
 
+### HTML tags
+
+- HTML tags help web browsers convert HTML documents into web pages
+
+-  For example : the `<p>` tag is used to organize text content into paragraph
+
+<hr>
+
 ### HTML commant tag
 
 - you can add your commants in HTML file
@@ -178,3 +186,4 @@ Formatting elements were designed to display special types of text:
 2. The `<canvas>` element is only a container for graphics. You must use JavaScript to actually draw the graphics.
 
 3. Canvas has several methods for `drawing paths, boxes, circles, text, and adding images`.
+
