@@ -58,6 +58,13 @@ Example :
 
 <hr>
 
+### `<!DOCTYPE html>` tag
+
+1. the `<!DOCTYPE html>` tag is described to HTML5 documents
+2. the HTML5 documents must start with a `<!DOCTYPE html>` declaration.
+
+<hr>
+
 ### HTML commant tag
 
 - you can add your commants in HTML file
