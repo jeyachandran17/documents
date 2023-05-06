@@ -65,6 +65,14 @@ Example :
 
 <hr>
 
+### `<a>` tag 
+
+1. The `<a>` tag defines a hyperlink, which is used to link from one page to another.
+
+2. The `most important attribute` of the `<a>` element is the href attribute, which indicates the link's destination.
+
+<hr>
+
 ### HTML commant tag
 
 - you can add your commants in HTML file
