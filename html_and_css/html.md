@@ -81,6 +81,13 @@ Example :
 ``` 
 <hr>
 
+### `<abbr>` tag
+
+- The `<abbr>` tag defines an abbreviation
+- Example : the `<abbr title="HyperText Markup Language">HTML</abbr>` is used to create a web pages --> the hover the HTML text and show the abbreviation.
+
+<hr>
+
 ### HTML using CSS : 
 
 1. CSS can be added to HTML documents in 3 ways:
