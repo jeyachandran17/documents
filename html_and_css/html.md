@@ -88,6 +88,16 @@ Example :
 
 <hr>
 
+### `<b>` tag
+
+- The `<b>` tag specifies bold text
+
+<hr>
+
+### `<br>` tag
+
+- The `<br>` tag inserts a single line break and it's an empty tag.
+
 ### HTML using CSS : 
 
 1. CSS can be added to HTML documents in 3 ways:
