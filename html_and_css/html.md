@@ -98,6 +98,35 @@ Example :
 
 - The `<br>` tag inserts a single line break and it's an empty tag.
 
+<hr>
+
+### `<div>` tag
+
+1. The `<div>` tag defines a division or a section in an HTML document.
+
+2. The `<div>` tag is used as a container for HTML element
+
+<hr>
+
+### `<hr>` tag
+
+1. The `<hr>` element is most often displayed as a horizontal line. 
+2. it's used to separate content in an HTML page.
+
+<hr>
+
+### `<audio>` tag
+
+1. The `<audio>` tag is used to embed sound content in a document, such as `music or other audio` streams.
+
+2. The `<audio>` tag contains one or more `<source>` tags with different audio sources. 
+
+3. The browser will choose the first source it supports.
+
+4. There are supported audio formats in HTML documents: `MP3, WAV, and OGG`
+
+<hr>
+
 ### HTML using CSS : 
 
 1. CSS can be added to HTML documents in 3 ways:
