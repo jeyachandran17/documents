@@ -127,6 +127,18 @@ Example :
 
 <hr>
 
+### heading tags
+
+1. The `<h1>` to `<h6>` tags are used to define HTML headings. 
+
+2. `<h1>` defines the most important heading. 
+
+3. `<h6>` defines the least important heading.
+
+### `<head>` tag
+
+- The `<head>` element is a container for metadata and is `placed between the <html> tag to <body> tag`
+
 ### HTML using CSS : 
 
 1. CSS can be added to HTML documents in 3 ways:
@@ -172,6 +184,7 @@ Example :
 1. JavaScript makes HTML pages more dynamic and interactive.
 
 2. `Internal` - by using a `<script>` element in the <head> section
+
 <hr>
 
 ### HTML Formatting Elements
