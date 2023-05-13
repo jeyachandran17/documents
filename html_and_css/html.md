@@ -135,9 +135,23 @@ Example :
 
 3. `<h6>` defines the least important heading.
 
+<hr>
+
 ### `<head>` tag
 
 - The `<head>` element is a container for metadata and is `placed between the <html> tag to <body> tag`
+
+<hr>
+
+### `<img>` tag
+
+1. The `<img>` tag is used to embed an image in an HTML page
+
+2. The most two importent attribute is `src and alt`
+
+    - `src` is Specifies the path to the image
+    - `alt` is Specifies an alternate text for the imag
+<hr>
 
 ### HTML using CSS : 
 
