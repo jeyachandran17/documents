@@ -153,6 +153,14 @@ Example :
     - `alt` is Specifies an alternate text for the imag
 <hr>
 
+### `<link>` tag
+
+1. The `<link>` tag defines the relationship between the current document and an external resource.
+
+2. The `<link>` tag is most often used to link to external documents ( or ) to add a favicon to your website.
+
+<hr>
+
 ### HTML using CSS : 
 
 1. CSS can be added to HTML documents in 3 ways:
