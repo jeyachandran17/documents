@@ -161,6 +161,18 @@ Example :
 
 <hr>
 
+### `<q>` tag
+
+- This tag defines a short quotation
+
+<hr>
+
+### `<section>` tag
+
+- This tag defines a section in a document.
+
+<hr>
+
 ### HTML using CSS : 
 
 1. CSS can be added to HTML documents in 3 ways:
