@@ -125,6 +125,8 @@ Example :
 
 4. There are supported audio formats in HTML documents: `MP3, WAV, and OGG`
 
+5. Note : `<audio condrols autoplay>`The autoplay attribute not working some browser      
+
 <hr>
 
 ### heading tags
@@ -169,7 +171,20 @@ Example :
 
 ### `<section>` tag
 
-- This tag defines a section in a document.
+- This tag defines a section in a document and it's also same purpose of `div and article` tag.
+
+<hr>
+
+### `<span>` tag
+
+1. This tag is an inline container.
+2. it's used to mark up a part of a text.
+
+<hr>
+
+### `<progress>` tag
+
+- This tag represents the completion progress of a task.
 
 <hr>
 
