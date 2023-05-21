@@ -188,6 +188,14 @@ Example :
 
 <hr>
 
+### `<select>` tag
+
+1. The `<select>` element is used to create a drop-down list.
+
+2. The `<select>` element is most often used in a form, to collect user input.
+
+<hr>
+
 ### HTML using CSS : 
 
 1. CSS can be added to HTML documents in 3 ways:
