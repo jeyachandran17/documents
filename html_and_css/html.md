@@ -196,54 +196,6 @@ Example :
 
 <hr>
 
-### HTML using CSS : 
-
-1. CSS can be added to HTML documents in 3 ways:
-    - `Inline` - by using the `style` attribute inside HTML elements
-    - `Internal` - by using a `<style>` element in the <head> section
-    - `External` - by using a `<link>` element to link to an external CSS file
-
-```
-Example :
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML & CSS</title>
-    <link rel="stylesheet" href="./style.css">  <!-- this element is "External CSS" with linked to html file  -->
-</head>
-<!-- this element is "internal CSS" -->
-<style>
-    h3{
-        font-family:cursive;
-        color: dodgerblue;
-    }
-</style>
-<body>
-    <h3>welcome to html & css learning</h3>
-    <p style="color:red">everyone has do be creating the web pages is using HRML</p>    <!-- this element is "inline CSS" -->
-    <p>happy coding...</p>
-</body>
-</html>
-```
-
-- Output : 
-
-    ![welcome to html & css](./pictures/welcome-to-html-css.png)
-
-<hr>
-
-### HTML using javascript
-
-1. JavaScript makes HTML pages more dynamic and interactive.
-
-2. `Internal` - by using a `<script>` element in the <head> section
-
-<hr>
-
 ### HTML Formatting Elements
 Formatting elements were designed to display special types of text:
 ```
@@ -317,4 +269,54 @@ Formatting elements were designed to display special types of text:
 2. The `<canvas>` element is only a container for graphics. You must use JavaScript to actually draw the graphics.
 
 3. Canvas has several methods for `drawing paths, boxes, circles, text, and adding images`.
+
+### HTML using CSS : 
+
+1. CSS can be added to HTML documents in 3 ways:
+    - `Inline` - by using the `style` attribute inside HTML elements
+    - `Internal` - by using a `<style>` element in the <head> section
+    - `External` - by using a `<link>` element to link to an external CSS file
+
+```
+Example :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="./style.css">  <!-- this element is "External CSS" with linked to html file  -->
+</head>
+<!-- this element is "internal CSS" -->
+<style>
+    h3{
+        font-family:cursive;
+        color: dodgerblue;
+    }
+</style>
+<body>
+    <h3>welcome to html & css learning</h3>
+    <p style="color:red">everyone has do be creating the web pages is using HRML</p>    <!-- this element is "inline CSS" -->
+    <p>happy coding...</p>
+</body>
+</html>
+```
+
+- Output : 
+
+    ![welcome to html & css](./pictures/welcome-to-html-css.png)
+
+<hr>
+
+### HTML using javascript
+
+1. JavaScript makes HTML pages more dynamic and interactive.
+
+2. `Internal` - by using a `<script>` element in the <head> section
+
+<hr>
+
+
 
