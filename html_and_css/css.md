@@ -21,10 +21,19 @@
 
 ### CSS variable
 
-- To declared in `--` front of the variable name
+1. To declared in `--` front of the variable name
+2. The `var()` function is used to insert the value of a CSS variable.
 - Example
 ```
---Variable_name
+:root{
+    --variable_name: red;
+}
+
+p{
+    color: var(--variable_name);
+}
+
+
 ```
 
 <hr>
