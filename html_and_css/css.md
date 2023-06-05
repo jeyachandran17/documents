@@ -6,6 +6,8 @@
 2. CSS describes `how HTML elements are to be displayed on screen`
 3. External stylesheets are stored in CSS files
 
+<hr>
+
 ### CSS comments
 
 1. Comments are not displayed in the browser.
@@ -15,6 +17,8 @@
 ```
 /* This is a comment line */
 ```
+<hr>
+
 ### CSS Box model
 
 1. In CSS, the term `box model` is used when talking about design and layout.
@@ -26,3 +30,4 @@
     - `Border` --> A border that goes around the padding and content
     - `Margin` --> Clears an area outside the border. The margin is transparent
 
+<hr>
