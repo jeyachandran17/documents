@@ -19,6 +19,16 @@
 ```
 <hr>
 
+### CSS variable
+
+- To declared in `--` front of the variable name
+- Example
+```
+--Variable_name
+```
+
+<hr>
+
 ### CSS Box model
 
 1. In CSS, the term `box model` is used when talking about design and layout.
