@@ -29,3 +29,27 @@
 3. Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
 4. Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
 5. Python can be treated in a procedural way, an object-oriented way or a functional way.
+
+<hr>
+
+### Python comments
+
+1. Comments can be used to explain Python code.
+2. Comments can be used to make the code more readable.
+3. Comments can be used to prevent execution when testing code.
+4. comments start with a `#` and python will ignore them
+5. the single comments is used to `#` or mulitple comments is used to`"""  """`
+
+- Example:
+```
+# This is a single comment
+```
+
+```
+"""
+This is a comment
+written in
+more than just one line 
+"""
+```
+<hr>
