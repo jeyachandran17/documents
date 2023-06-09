@@ -175,3 +175,14 @@ print(x)
         - NoneType
 
 <hr>
+
+### get data type
+
+- You can get the data type of any object by using the type() function
+
+- Example : 
+```
+x = "hello world" # x is a string type
+print(type(x))  # this output <class 'str'>
+```
+<hr>
