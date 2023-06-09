@@ -70,7 +70,7 @@ z = 5.0   # type of float
 
 <hr>
 
-### Role for Variable Name declear
+### Rule for Variable Name declear
 
 1. A variable can have a short name (like x and y) or a more descriptive name (name, age, total_volume). 
 2. Rules for Python variables:
@@ -90,3 +90,57 @@ VARIABLENAME = "value"
 variablename2 = "value"
 ```
 <hr>
+
+### Python variable - asign multiple values
+
+- Python allows you to assign values to multiple variables in one line
+- Example : 
+```
+language, year, creator = "Python", 1991, "Guido van Rossum" 
+print(language)
+print(year)
+print(creator)
+```
+<hr>
+
+### Asign One Value to Multiple Variables
+- And you can assign the same value to multiple variables in one line:
+
+- Example :
+``` 
+x = y = z = "Hello World"
+print(x)
+print(y)
+print(z)
+```
+
+<hr>
+
+### Global variable
+
+1. Variables that are created outside of a function (as in all of the examples above) are known as global variables.
+
+2. Global variables can be used by everyone, both inside of functions and outside.
+- Example :
+```
+x = "hello world"
+
+def my_function(){
+    print(x)
+}
+
+my_function()
+```
+3. To create a global variable inside a function, you can use the `global` keyword.
+- Example :
+```
+def my_function():
+  global x
+  x = "hello world"
+
+my_function()
+
+print(x)
+```
+<hr>
+
