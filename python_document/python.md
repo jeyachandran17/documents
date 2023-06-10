@@ -202,3 +202,34 @@ y = float(1) # y will be 1.0
 z = str(1)  # z will be '1'
 ```
 <hr>
+
+### Strings
+- Strings in python are surrounded by either `single quotation marks('')`, or `double quotation marks("")`.
+
+- `'hello'` is the same as `"hello"`.
+
+<hr>
+
+### Assign String to a Variable
+- Assigning a string to a variable is done with the variable name followed by an equal sign and the string
+
+- Example :
+```
+x = "hello"
+y = 'hello'
+print(x,y) # output will be hello hello
+```
+<hr>
+
+### Multiline Strings
+- You can assign a multiline string to a variable by using `three quotes(""" write a content """ (or) ''' write a content '''')`
+
+- Example :
+```
+x = """Python is a popular programming,
+It's a high level programming language,
+It was create by Guido van Rossum and released in 1991.
+""" 
+print(x)
+```
+<hr>
