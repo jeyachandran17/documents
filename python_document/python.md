@@ -186,3 +186,19 @@ x = "hello world" # x is a string type
 print(type(x))  # this output <class 'str'>
 ```
 <hr>
+
+### python type casting
+
+- Casting in python is therefore done using constructor functions:
+
+    - int() - constructs an integer number from an integer literal, a float literal, or a string literal
+    - float() - constructs a float number from an integer literal, a float literal or a string literal.
+    - str() - constructs a string from a wide variety of data types, including strings, integer literals and float literals
+
+- Example :
+```
+x = int(1)  # x will be 1
+y = float(1) # y will be 1.0   
+z = str(1)  # z will be '1'
+```
+<hr>
