@@ -233,3 +233,15 @@ It was create by Guido van Rossum and released in 1991.
 print(x)
 ```
 <hr>
+
+### String Length
+
+1. To get the length of a string, use the len() function.
+2. The `len()` function returns the length of a string
+
+- Example
+```
+x = "Hello, World!"
+print(len(x)) # output will be 13
+```
+<hr>
