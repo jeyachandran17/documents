@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --required: red;
+    --star: orange;
+    --borderColor: rgba(30, 143, 255, 0.442);
+    --tableColor: rgba(128, 128, 128, 0.521);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: unset;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 15px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+h4 span {
+    color: var(--required);
+}
+
+.name-inputs {
+    display: flex;
+    max-width: 50%;
+    gap: 10px;
+}
+
+.first-name,
+.last-name {
+    width: 50%;
+}
+
+.name {
+    width: 100%;
+}
+
+.name,
+.email {
+    height: 30px;
+    overflow: hidden;
+    padding: 5px;
+
+    &:focus {
+        outline: none;
+        border-color: var(--borderColor);
+    }
+}
+
+.email-tag {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.experience-tag {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.checked {
+    color: var(--star);
+}
+
+.satisfied,
+.likely {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    max-width: 150px;
+}
+
+table tr:nth-child(even) {
+    background-color: var(--tableColor);
+}
+
+.comments-tag {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button {
+    padding: 5px;
+}
+
+
+
+textarea {
+    padding: 5px;
+
+    &:focus {
+        outline: none;
+        border-color: var(--borderColor);
+    }
+}
