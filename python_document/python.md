@@ -245,3 +245,16 @@ x = "Hello, World!"
 print(len(x)) # output will be 13
 ```
 <hr>
+
+### Check String
+- To check if a certain phrase or character is present in a string, we can use the keyword `in`.
+
+- Example
+```
+# Check if "python" is present in the following text
+
+text = "welcome to learn python"
+print("python" in text) # output will be "True"
+```
+
+<hr>
