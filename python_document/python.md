@@ -282,3 +282,29 @@ b = "welcome to python!"
 print(b[2:5]) # output will be "lco"
 ```
 <hr>
+
+### Slicing form the Start
+
+- By leaving out the `start index`, the range will start at first character
+
+- Example :
+```
+# Get the character from the start to position 5(the 5th position not included )
+
+x = "welcome to python!"
+print(x[:5])    # output will be "welco"
+```
+
+### Slicing to the End 
+
+- By leaving out the `End index`, the range will go to the end
+
+- Example :
+```
+# The get character start from position 2, and all way ti the end
+
+x = "welcome to python!"
+print(x[2:])    # output will be "lcome to python!" 
+```
+<hr>
+
