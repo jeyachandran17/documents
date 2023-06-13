@@ -246,15 +246,25 @@ print(len(x)) # output will be 13
 ```
 <hr>
 
-### Check String
-- To check if a certain phrase or character is present in a string, we can use the keyword `in`.
+### Check String or Not
+- To check if a certain phrase or character is `present` in a string, we can use the keyword `in`.
 
-- Example
+To check if a certain phrase or character is `NOT present` in a string, we can use the keyword `not in`.
+
+- Example for `in`
 ```
 # Check if "python" is present in the following text
 
 text = "welcome to learn python"
 print("python" in text) # output will be "True"
+```
+
+- Example for `not in`
+```
+# heck if "javascript" is NOT present in the following text
+
+text = "welcome to learn python"
+print("javascript" not in text) # output will be "True"
 ```
 
 <hr>
