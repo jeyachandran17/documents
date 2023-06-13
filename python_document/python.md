@@ -268,3 +268,17 @@ print("javascript" not in text) # output will be "True"
 ```
 
 <hr>
+
+### String Slicing
+1. You can return a range of characters by using the slice syntax.
+
+2. Specify the `start index` and the `end index`, separated by a `colon(:)`, to return a part of the string.
+
+- Example :
+```
+# Get the characters from position 2("2" is start position) to position 5 ("5" is end position and it's not including).
+
+b = "welcome to python!"
+print(b[2:5]) # output will be "lco"
+```
+<hr>
