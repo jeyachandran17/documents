@@ -308,3 +308,43 @@ print(x[2:])    # output will be "lcome to python!"
 ```
 <hr>
 
+### Modify String
+
+- Python has a setof build-n methods that you can use on string
+
+### Upper Case
+
+- The `upper()` method returns the string in upper case
+- Example :
+```
+x = "welcome to python!"
+print(x.upper()) # output will be "WELCOME TO PYTHON!"
+```
+### Lower Case
+
+- The `lower()` method returns the string in lower case
+- Example :
+```
+x = "WELCOME TO PYTHON!"
+print(x.lower())    # output will be "welcome to python!"
+```
+
+### Remove Whitespace 
+
+- The use to `strip()` method removes any whitespace from the beginning to the end
+
+- Example :
+```
+x = " python "
+print(x.strip())   # now output will be 'python'
+```
+
+### Split String
+- The `split()` method returns a list, where the text between the specified separator becomes the list items 
+
+- Example :
+```
+x = "welcome to python"
+print(x.split(" ")) # output will be "['welcome','to','python']"  
+```
+<hr>
