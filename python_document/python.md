@@ -382,4 +382,14 @@ number = 5
 x = "{} is are integer"
 print(x.format(number)) # output will be "5 is are integer" 
 ```
+<hr> 
+
+Escape Character
+
+The escape character(`"\`) allows you to use double quotes when you normally would not be allowed
+
+- Example : 
+```
+print("welcome to \"python\".") # output will be welcome to "python"
+```
 <hr>
