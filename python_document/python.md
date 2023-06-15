@@ -384,12 +384,26 @@ print(x.format(number)) # output will be "5 is are integer"
 ```
 <hr> 
 
-Escape Character
+### Escape Character
 
-The escape character(`"\`) allows you to use double quotes when you normally would not be allowed
+- The escape character(`"\`) allows you to use double quotes when you normally would not be allowed
 
 - Example : 
 ```
 print("welcome to \"python\".") # output will be welcome to "python"
 ```
+<hr>
+
+### Boolean values
+
+1. You can evaluate any expression in Python, and get one of two values, `True or False`.
+
+2. When you compare two values, the expression is evaluated and Python returns the Boolean
+
+- Example :
+```
+x = 5 > 6
+print(x) # output will be "False"
+```
+
 <hr>
