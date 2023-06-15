@@ -348,3 +348,24 @@ x = "welcome to python"
 print(x.split(" ")) # output will be "['welcome','to','python']"  
 ```
 <hr>
+
+### String Concatenation
+- To concatenate, or combine, two are more strings you can use the + operator.
+
+- Merge variable a with variable b into variable c
+
+- Example : 
+```
+a = "hello"
+b = "python"
+c = a + b
+print(c) # output will be "hellopython" 
+```
+- To add a space between them, add a " " (whitespace)
+- Example :
+```
+a = "Hello"
+b = "python"
+print(a + " " + b)
+```
+<hr>
