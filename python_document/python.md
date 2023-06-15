@@ -369,3 +369,17 @@ b = "python"
 print(a + " " + b)
 ```
 <hr>
+
+### Format String
+
+- The `format()` method takes the passed arguments, formats them, and places them in the string where the placeholders `{}`
+
+- Example : 
+```
+# Use the format() method to insert numbers into the string
+
+number = 5
+x = "{} is are integer"
+print(x.format(number)) # output will be "5 is are integer" 
+```
+<hr>
