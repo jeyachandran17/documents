@@ -407,3 +407,31 @@ print(x) # output will be "False"
 ```
 
 <hr>
+
+### Function
+
+1. A function is a block of code which only runs when it is called.
+2. You can pass data, known as parameters, into a function.
+3. A function can return data as a result.
+4. In python a function is defined using the `def` keyword and to call a function it's used the function name
+- Example :
+```
+def Myfunction():
+    print("welcome to create the python function")
+
+Myfunction()
+```
+### Function with Arguments
+1. Information can be passed into functions as arguments.
+2. Arguments are specified after the function name, inside the parentheses. 
+3. add two are more arguments as you want, just separate them with a comma.
+
+- Example :
+```
+def sum_of_number(a,b): # a = 5, b = 10
+    return a+b
+
+print(sum_of_number(5,10))
+```
+
+<hr>
