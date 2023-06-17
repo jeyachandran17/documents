@@ -407,6 +407,14 @@ text = "hello world"
 print(text.capitalize())    # output will be "Hello world"
 ```
 
+### String casefold() Method
+1. The casefold() method returns a string where all the characters are lower case.
+2. This method is similar to the lower() method
+- Example :
+```
+text = "Hello world"
+print(text.casefold()) # output will be "hello world"
+```
 <hr>
 
 ### Boolean values
