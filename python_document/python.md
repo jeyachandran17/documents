@@ -394,6 +394,11 @@ print("welcome to \"python\".") # output will be welcome to "python"
 ```
 <hr>
 
+### String Methods
+- Python has a set of built-in methods that you can use on strings.
+
+<hr>
+
 ### Boolean values
 
 1. You can evaluate any expression in Python, and get one of two values, `True or False`.
@@ -435,3 +440,4 @@ print(sum_of_number(5,10))
 ```
 
 <hr>
+
