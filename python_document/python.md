@@ -415,6 +415,28 @@ print(text.capitalize())    # output will be "Hello world"
 text = "Hello world"
 print(text.casefold()) # output will be "hello world"
 ```
+
+### String center() Method 
+
+1. The center() method will center align the string,
+2. using a specified character (space is default) as the fill character
+3. Syntax : 
+```
+string.center(length,fillchar)
+```
+- Example :
+```
+text = "python"
+print(text.center(30))  # output will be'            python            '
+
+```
+<p style="text-align:center;">( or )</p>
+
+```
+text = "python"
+print(text.center(30,"-"))  # output will be'------------python------------'
+```
+
 <hr>
 
 ### Boolean values
