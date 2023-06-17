@@ -397,6 +397,16 @@ print("welcome to \"python\".") # output will be welcome to "python"
 ### String Methods
 - Python has a set of built-in methods that you can use on strings.
 
+### String capitalize() Method
+
+- The capitalize() method returns a string where the first character is upper case, and the rest is lower case.
+
+- Example :
+```
+text = "hello world"
+print(text.capitalize())    # output will be "Hello world"
+```
+
 <hr>
 
 ### Boolean values
