@@ -436,6 +436,25 @@ print(text.center(30))  # output will be'            python            '
 text = "python"
 print(text.center(30,"-"))  # output will be'------------python------------'
 ```
+### String count() Method
+
+- The `count()` method returns the number of times a specified value appears in the string.
+
+- Syntax
+```
+string.count(value, start_value, end_value)
+```
+- Example :
+```
+x = "python is a popular programming language,python is released in 1991"
+print(x.count("python",20,60))  # output will be 1
+```
+<p style="text-align:center;">( or )</p>
+
+```
+x = "python is a popular programming language,python is released in 1991"
+print(x.count("python"))    # output will be 2
+```
 
 <hr>
 
