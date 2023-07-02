@@ -6,6 +6,60 @@
     <title>Survey Form for Begginner</title>
 </head>
 <body>
-    
+    <div class="container">
+        <form action="">
+            <h2>Begginer Survey Form</h2>
+            <div class="personal-information">
+                <fieldset>
+                    <legend>Personal Information:</legend>
+                    <div>
+                        <label class="personal-feilds" for="name">Name </label>
+                        <input type="text" id="name" placeholder="Enter your Name">
+                    </div>
+                    <div>
+                        <label class="personal-feilds" for="address">Address </label>
+                        <input type="text" id="address" placeholder="Enter your Address">
+                    </div>
+                    <div>
+                        <label class="personal-feilds" for="mail">Email </label>
+                        <input type="mail" id="mail" placeholder="Enter your Email">
+                    </div>
+                    <div>
+                        <label class="personal-feilds" for="number">Number </label>
+                        <input type="tel" placeholder="Enter your Mobile number" id="number">
+                    </div>
+                    <div class="checklist">
+                        <label for="">Please select your gender</label>
+                        <div class="fields">
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="fields">
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Female</label>
+                        </div>
+                        <div class="fields">
+                            <input type="radio" name="gender" id="non-binery">
+                            <label for="non-binery">Non-binery</label>
+                        </div>
+                        <div class="fields">
+                            <input type="radio" name="gender" id="not-to-say">
+                            <label for="not-to-say">prefer not to say</label>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="additional-information">
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    <p>Enter your Background information</p>
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Enter your Background information"></textarea>
+                </fieldset>
+            </div>
+            <div class="submit">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
