@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 255, 0.837);
+    min-height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    gap: 20px;
+    padding: 50px;
+    background-color: rgba(99, 94, 94, 0.592);
+}
+
+h2 {
+    text-align: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-color: dodgerblue;
+}
+
+fieldset div {
+    display: flex;
+}
+
+.personal-feilds {
+    display: block;
+    width: 70px;
+}
+
+.checklist {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.fields {
+    display: flex;
+    gap: 10px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 5px;
+}
