@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --txtcolor: white;
+    --backgroundcolor: rgb(67, 67, 67);
+    --formbackgrond: rgba(5, 105, 254, 0.119);
+    --border: rgba(30, 143, 255, 0.774);
+    --focus: dodgerblue;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--backgroundcolor);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border);
+    padding: 50px;
+    background-color: var(--formbackgrond);
+    gap: 20px;
+}
+
+.email,
+.password {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    height: 30px;
+    min-width: 300px;
+    padding: 5px;
+    outline: none;
+}
+
+label {
+    color: var(--txtcolor);
+}
+
+input:focus {
+    border: 2px solid var(--focus);
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+h2 {
+    color: var(--txtcolor);
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 8px;
+    width: 100%;
+    background-color: var(--backgroundcolor);
+    border-radius: 3px;
+    color: var(--txtcolor);
+}
