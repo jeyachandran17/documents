@@ -515,3 +515,10 @@ print(x)  # it's displayed to current date and time
 ```
 
 <hr>
+
+### Python Math
+
+- Python has a set of built-in math functions, including an extensive math module
+- It's allows you to perform mathematical tasks on numbers
+
+<hr>
