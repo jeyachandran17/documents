@@ -521,4 +521,16 @@ print(x)  # it's displayed to current date and time
 - Python has a set of built-in math functions, including an extensive math module
 - It's allows you to perform mathematical tasks on numbers
 
+### Math function
+
+### min( )
+
+- The `min()` function can be used to find the lowest value.
+
+- Example :
+```
+print(min(6,1,8,5))   # output 1  
+print (min([4,7,-6]))   # Output -6
+```
+
 <hr>
