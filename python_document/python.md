@@ -533,4 +533,14 @@ print(min(6,1,8,5))   # output 1
 print (min([4,7,-6]))   # Output -6
 ```
 
+### max( )
+
+- The `max()` function can be used to find the highest value. 
+
+- Example :
+```
+print(max(6,1,8,5))   # output 8  
+print (max([4,7,-6]))   # Output 7
+```
+
 <hr>
