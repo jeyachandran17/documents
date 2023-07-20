@@ -542,5 +542,13 @@ print (min([4,7,-6]))   # Output -6
 print(max(6,1,8,5))   # output 8  
 print (max([4,7,-6]))   # Output 7
 ```
+### abs( ) 
+- The `abs( )` function returns the absolute (positive) value of the specified number.
+
+- Example :
+```
+number = abs(-10)
+print(number)   # output will be 10
+```
 
 <hr>
