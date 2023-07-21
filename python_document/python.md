@@ -551,4 +551,14 @@ number = abs(-10)
 print(number)   # output will be 10
 ```
 
+### pow( )
+- The `pow(x, y)` function returns the value of x to the power of y.
+
+- Example :
+```
+# Return the value of 2 to the power of 3 (same as 2 * 2 * 2):
+
+x = pow(2, 3)
+print(x)    # output will be 8
+```
 <hr>
