@@ -561,4 +561,13 @@ print(number)   # output will be 10
 x = pow(2, 3)
 print(x)    # output will be 8
 ```
+
+### The Math Module
+- Python has also a built-in module called `math`, which extends the list of mathematical functions.
+
+- To use it, you must `import the math` module
+- Example :
+```
+import math
+``` 
 <hr>
