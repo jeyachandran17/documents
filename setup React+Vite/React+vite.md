@@ -45,4 +45,12 @@ npm install
 npm run dev
 ```
 
+<p style="text-align:center">(or)</p>
+
+- Quick start or open the Browser use this command below
+```
+npm run dev -- --open
+```
+
+
 8. finally successfull to Create the React projeact.
