@@ -50,3 +50,20 @@ p{
     - `Margin` --> Clears an area outside the border. The margin is transparent
 
 <hr>
+
+### CSS Color 
+
+1. The CSS color uses color values to specify a color.
+
+2. Typically, these are used to set a color either for the foreground of an element (i.e., its text) or else for the background of the element.
+
+3. They can also be used to affect the color of borders and other decorative effects.
+
+4. CSS Colors are specified using predefined colors color
+    - Names of color
+    - RGB values
+    - HEX values
+    - HSL values
+    - RGBA values
+    - HSLA values.
+<hr>
