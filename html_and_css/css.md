@@ -69,14 +69,23 @@ p{
 
 - #### Name of color
     - In CSS, a color can be specified by using a predefined color name. like,
-<div style="display:flex;gap:10px;">
-    <h3 style="padding:10px;background-color:Tomato;">Tomato</h3>
-    <h3 style="padding:10px;background-color:Orange;">Orange</h3>
-    <h3 style="padding:10px;background-color:DodgerBlue;">DodgerBlue</h3>
-    <h3 style="padding:10px;background-color:MediumSeaGreen;">MediumSeaGreen</h3>
-    <h3 style="padding:10px;background-color:Gray;">Gray</h3>
-    <h3 style="padding:10px;background-color:SlateBlue;">SlateBlue</h3>
-    <h3 style="padding:10px;background-color:Violet;">Violet</h3>
-    <h3 style="padding:10px;background-color:LightGray;">LightGray</h3>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;">
+        <h3 style="padding:10px;background-color:Tomato;">Tomato</h3>
+        <h3 style="padding:10px;background-color:Orange;">Orange</h3>
+        <h3 style="padding:10px;background-color:DodgerBlue;">DodgerBlue</h3>
+        <h3 style="padding:10px;background-color:MediumSeaGreen;">MediumSeaGreen</h3>
+        <h3 style="padding:10px;background-color:Gray;">Gray</h3>
+        <h3 style="padding:10px;background-color:SlateBlue;">SlateBlue</h3>
+        <h3 style="padding:10px;background-color:Violet;">Violet</h3>
+        <h3 style="padding:10px;background-color:LightGray;">LightGray</h3>
+    </div>
+</body>
+</html>
 <hr>
